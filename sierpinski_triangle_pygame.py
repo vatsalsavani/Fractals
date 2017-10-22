@@ -1,3 +1,6 @@
+#Vatsal Savani
+#Creating Sierpinski Triangle from Chaos
+
 import time, math, pygame, sys, random
 from pygame.locals import *
 

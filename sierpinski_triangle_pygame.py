@@ -10,7 +10,7 @@ START = (0, SIZE)
 pygame.init()
 # 	Set up window	
 screen = pygame.display.set_mode((SIZE, SIZE), 0, 32)
-pygame.display.set_caption('TestFractal_Sierpinski Triangle')
+pygame.display.set_caption('Fractal_Sierpinski Triangle')
 
 # Set vertexes
 lv = (0, SIZE) # Left Vertex
@@ -37,6 +37,7 @@ drawLine (tv, rv)
 point = START
 plotPixel (point)
 
+#Number of points to be plotted (change 30000 to number of points to be plotted)
 for i in range(0, 30000) :
 
 	if (i % 100) == 0 :
